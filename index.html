@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+    @keyframes mymove {
+      from {left: 0px;}
+      to {left: 300px;}
+    }
+    @keyframes orbit {
+        0% {
+            transform: translateX(0) translateY(-50%);
+        }
+        100% {
+            transform: translateX(100%) translateY(-50%);
+        }
+    }
+    </style>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="div1">
+    <h1>Hi, I'm Miriam</h1>
+    <img src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/44445643_965860526930656_4491144621644054528_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=300f58&_nc_ohc=So-rzCG959AAX8mcKEx&_nc_ht=scontent-lhr8-1.xx&oh=00_AfAOow13SG-JhiI8oihll56E4a0sjUBRgcXZOrvJasBuJQ&oe=6566EC17" alt="It's just a photo of me, don't worry about it." width="200px" class="rotate-on-hover">
+  </div>
+  <div id="div2">
+      <p>I love hiking, eating, sleeping, laughing with anyone (I know, so uniq, I bet nobody enjoys this) and I started liking this bootcamp.</p>
+      <div class="special-div icon-size">
+        <i class="fa-solid fa-mountain icon-size"></i>
+        <i class="fa-solid fa-bowl-food icon-size"></i>
+        <i class="fa-solid fa-moon icon-size"></i>
+        <i class="fa-regular fa-face-grin-squint-tears icon-size"></i>
+        <i class="fa-solid fa-building icon-size"></i>
+      </div>
+  </div>
+  <div id="div3">
+    <p>Do you wanna learn HTML?</p>
+      <button><a href="https://www.w3schools.com/html/default.asp">Click this</a></button>
+    <footer>
+      <h5>You can follow me on my socials (I'm gonna block you as soon as I can)
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+      </h5>
+    </footer>
+  </div>
+  <i class="fa-solid fa-person-hiking hiking-icon icon-size"></i>
+</body>
+</html>

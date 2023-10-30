@@ -1,0 +1,116 @@
+* {
+  background-color: #DADAD9;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  color: #6C596E;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 center;
+  /* margin: auto; */
+}
+
+h1, h5 {
+  color: #36382E;
+  line-height: 100%;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+a {
+  /* color & text-decoration */
+  color: #8E9B90;
+  transition: 2s;
+}
+
+a:hover {
+  color: #D4CDAB;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  border-radius: 200px;
+  box-shadow: #36382E;
+}
+
+.rotate-on-hover {
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.rotate-on-hover:hover {
+  transform: rotate(360deg); /* Rotate the image 45 degrees on hover */
+}
+
+div {
+  width: 300px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #81726A;
+  /* background-color: red; */
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 5%;
+  position: relative;
+  animation: mymove 5s 3;
+   animation-direction: alternate;
+}
+
+.special-div {
+  background-color: #DADAD9;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+}
+
+.icon-size {
+  font-size: 2em;
+}
+
+
+.hiking-icon {
+  position: absolute;
+  font-size: 24px;
+  animation-timing-function: cubic-bezier(.09,.06,.92,.98);
+  left: 2px;
+  top: 100px;
+  animation: orbit 4s linear infinite; /* Adjust the duration as needed */
+}
+
+
+
+
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+
+
+
+
+
+/* .clip-me {
+  clip-path: path('M0.5,1 C0.5,1,0,0.7,0,0.3 A0.25,0.25,1,1,1,0.5,0.3 A0.25,0.25,1,1,1,1,0.3 C1,0.7,0.5,1,0.5,1 Z');
+}
+.move-me {
+  offset-path: path("M56.06,227 ...");
+} */
+/* footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  text-align:justify;
+} */
